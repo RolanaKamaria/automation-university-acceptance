@@ -1,0 +1,162 @@
+.main-MofadaliInfo {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+.MofadaliInfo-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+.selectList-RowPosition {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5em;
+}
+.label-input-inRowPosition {
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+  padding-top: 5em;
+  padding-bottom: 3em;
+}
+.desires-general-MofadaliInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em;
+  padding-top: 6em;
+}
+.label-MofadaliInfo {
+  width: fit-content;
+  font-family: "Arial";
+  font-size: 1.3em;
+  color: var(--text-color);
+  padding-top: 0.3em;
+}
+.Mof-all-dem {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+.buttons-box-mof {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  padding-right: 50em;
+  padding-top: 3.5em;
+}
+.input-label-MofadaliInfo {
+  box-sizing: border-box;
+  width: 12em;
+  height: 2.5em;
+  background: var(--inp-bg);
+  border-width: 1px 1px 5px 1px;
+  border-style: solid;
+  border-color: var(--border-log-color);
+  border-radius: 1em;
+  text-align: right;
+  font-family: "Arial";
+  font-style: normal;
+  font-size: 1em;
+  line-height: 1em;
+  padding: 1em;
+}
+
+/* MOBILE */
+@media screen and (max-width: 481px) {
+  .main-MofadaliInfo {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+
+  .selectList-RowPosition {
+    /* display: flex;
+        flex-direction: row; */
+    gap: 1em;
+  }
+
+  .label-input-inRowPosition {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-top: 4em;
+    padding-bottom: 2em;
+  }
+  .desires-general-MofadaliInfo {
+    padding: 3em;
+    padding-top: 2em;
+  }
+  .label-MofadaliInfo {
+    font-size: 0.54em;
+    padding-top: 0.3em;
+  }
+  .Mof-all-dem {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+  }
+  .buttons-box-mof {
+    gap: 0.5em;
+    padding-right: 6em;
+    padding-top: 3.5em;
+  }
+  .input-label-MofadaliInfo {
+    width: 8em;
+    height: 0.2em;
+    background: var(--inp-bg);
+    border-width: 0.5px 0.5px 3px 0.5px;
+    border-radius: 1em;
+    font-size: 0.8em;
+    line-height: 1em;
+    padding: 0.9em;
+  }
+}
+
+/* MIDUEM */
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .main-MofadaliInfo {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  .MofadaliInfo-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  .selectList-RowPosition {
+    gap: 2.5em;
+  }
+
+  .label-input-inRowPosition {
+    gap: 1em;
+    padding-top: 4em;
+    padding-bottom: 3em;
+  }
+
+  .desires-general-MofadaliInfo {
+    padding: 3em;
+    padding-top: 3.5em;
+  }
+
+  .label-MofadaliInfo {
+    font-size: 0.8em;
+    padding-top: 0.3em;
+  }
+  .Mof-all-dem {
+    gap: 1em;
+  }
+  .buttons-box-mof {
+    gap: 1em;
+    padding-right: 22em;
+    padding-top: 3.5em;
+  }
+  .input-label-MofadaliInfo {
+    width: 10em;
+    height: 2em;
+    border-width: 1px 1px 4px 1px;
+    border-radius: 1em;
+    font-size: 1em;
+    line-height: 1em;
+    padding: 0.8em;
+  }
+}

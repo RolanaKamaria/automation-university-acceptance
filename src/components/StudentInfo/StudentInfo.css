@@ -1,0 +1,141 @@
+.main-StudentInfo {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+.StudentInfo-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.label-input-inRowPosition-StudentInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+.desires-general-StudentInfo {
+  display: flex;
+  flex-direction: row;
+  padding-right: 5em;
+  padding-top: 5em;
+  gap: 10em;
+}
+.label-StudentInfo {
+  width: 7em;
+  font-family: "Arial";
+  font-size: 1.3em;
+  color: var(--text-color);
+  padding-top: 0.3em;
+}
+.StudentInfo-all-dem {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5em;
+}
+.buttons-box-studentInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  padding-right: 52em;
+  padding-top: 6em;
+}
+.input-label-StudentInfo {
+  box-sizing: border-box;
+  width: 14em;
+  height: 2.5em;
+  background: var(--inp-bg);
+  border-width: 1px 1px 5px 1px;
+  border-style: solid;
+  border-color: var(--border-log-color);
+  border-radius: 1em;
+  text-align: right;
+  font-family: "Arial";
+  font-style: normal;
+  font-size: 1em;
+  line-height: 1em;
+  padding: 1em;
+}
+
+/* MOBILE */
+@media screen and (max-width: 481px) {
+  .main-StudentInfo {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .label-input-inRowPosition-StudentInfo {
+    gap: 1.5em;
+  }
+
+  .desires-general-StudentInfo {
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    padding-top: 2em;
+  }
+
+  .label-StudentInfo {
+    font-size: 0.54em;
+  }
+
+  .StudentInfo-all-dem {
+    gap: 0.7em;
+  }
+  .buttons-box-studentInfo {
+    gap: 0.5em;
+    padding-right: 7em;
+    padding-top: 2.5em;
+  }
+  .input-label-StudentInfo {
+    width: 8em;
+    height: 0.2em;
+    border-width: 0.5px 0.5px 3px 0.5px;
+    border-radius: 1em;
+    font-size: 0.8em;
+    line-height: 1em;
+    padding: 0.9em;
+  }
+}
+
+/* MIDUEM */
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .main-StudentInfo {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .StudentInfo-nav {
+    gap: 0.5em;
+  }
+
+  .label-input-inRowPosition-StudentInfo {
+    gap: 3em;
+  }
+
+  .desires-general-StudentInfo {
+    padding: 1em;
+    padding-top: 5em;
+    gap: 2em;
+  }
+
+  .label-StudentInfo {
+    font-size: 0.8em;
+  }
+
+  .StudentInfo-all-dem {
+    gap: 0.7em;
+  }
+  .buttons-box-studentInfo {
+    gap: 1em;
+    padding-right: 26em;
+    padding-top: 4.5em;
+  }
+  .input-label-StudentInfo {
+    width: 10em;
+    height: 2em;
+    border-width: 1px 1px 4px 1px;
+    border-radius: 1em;
+    font-size: 1em;
+    line-height: 1em;
+    padding: 0.8em;
+  }
+}

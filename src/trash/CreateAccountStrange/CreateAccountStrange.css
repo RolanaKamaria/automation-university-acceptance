@@ -1,0 +1,46 @@
+.create-strange-lable,.create-strange-input{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+padding: 2em;
+}
+.create-strange{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 4em;
+    padding-right: 20%;
+}
+.create-strange-lable{
+    gap: 4em;
+}
+#create-btn-box{
+    width: 90%;
+    margin-bottom: 1em;
+}
+.rad-create{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--nav-bg);
+    margin-left: 1em;
+
+    accent-color:  var( --rad-btn);
+}
+
+
+.check:after {  
+    content: "";    
+    display: none;  
+  }  
+.rad-create-label{
+    cursor: pointer;
+    font-size: 1.5em;
+    color: var(--text-color); 
+    width: 4em;
+    margin-bottom: 0.5em;
+
+}

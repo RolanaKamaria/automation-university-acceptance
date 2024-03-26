@@ -1,0 +1,224 @@
+.main-QueryState {
+  padding-left: 4em;
+  padding-right: 4em;
+  background-color: var(--bg-color);
+}
+.numberOfTheChoice {
+  width: 1.7em;
+  height: 1.7em;
+  background-color: var(--bg-color);
+  border: 0.1px solid var(--header-border);
+  border-radius: 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.collageChosenName {
+  display: flex;
+  flex-direction: column;
+  width: 10em;
+}
+.collageChosenCity {
+  display: flex;
+  flex-direction: column;
+}
+.QueryState-Nav {
+  display: flex;
+  flex-direction: row;
+}
+.QueryState-Without-Nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+  padding-top: 1em;
+  padding-right: 3em;
+}
+
+.showfinalchoice-QueryState {
+  background: var(--background-of-view-final-choice);
+  border-radius: 1em;
+  width: 45em;
+  height: 16em;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 1em;
+  gap: 1em;
+  margin-right: 8em;
+}
+
+.showfinalchoice-QueryState::-webkit-scrollbar {
+  display: none;
+}
+.each-element-of-final-choices-QueryState {
+  display: flex;
+  flex-direction: row;
+  font-size: 1em;
+  color: var(--text-color);
+  gap: 6em;
+  padding-right: 8em;
+}
+.QueryStateForStudent {
+  text-align: center;
+  width: 20em;
+  height: 3em;
+  background-color: var(--Query-state);
+  margin-right: 20em;
+  padding-top: 0.5em;
+  border-radius: 10em;
+}
+.QueryStateForStudent-Label {
+  width: 7em;
+  font-family: "Arial";
+  font-size: 1.7em;
+  color: var(--text-color);
+  font-weight: bold;
+}
+.first-group-button {
+  display: flex;
+  flex-direction: row;
+}
+.zr-QueryState {
+  margin-right: 3em;
+  width: fit-content;
+}
+
+.All-button-togather {
+  padding-bottom: 1em;
+  margin-right: 1em;
+  display: flex;
+  flex-direction: row;
+  gap: 24em;
+}
+.button-color-GreenQS {
+  border: 0.5px solid;
+  border-radius: 0.5em;
+  cursor: pointer;
+  padding: 0.7em 1.5em;
+  color: var(--text-color);
+  font-size: 1.1em;
+  background-color: var(--edit);
+}
+.button-color-GreenQS:hover,
+.button-color-RedQS {
+  background-color: #586476;
+}
+.button-color-RedQS {
+  border: 0.5px solid;
+  border-radius: 0.5em;
+  cursor: pointer;
+  padding: 0.7em 1.5em;
+  color: var(--text-color);
+  font-size: 1.1em;
+  background-color: var(--delete);
+}
+/* MOBILE */
+@media screen and (max-width: 481px) {
+  .main-QueryState {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .QueryState-Without-Nav {
+    gap: 3em;
+    padding-top: 0.5em;
+    padding-right: 0em;
+  }
+
+  .showfinalchoice-QueryState {
+    border-radius: 1em;
+    width: 13em;
+    height: 15em;
+    padding: 1em 1em;
+    gap: 0.5em;
+    margin-right: 1.5em;
+  }
+
+  .each-element-of-final-choices-QueryState {
+    font-size: 0.5em;
+    gap: 3em;
+    padding-right: 0em;
+  }
+
+  .QueryStateForStudent {
+    width: 8.5em;
+    height: 2.1em;
+    margin-right: 4em;
+    padding-top: 0.3em;
+    border-radius: 10em;
+  }
+
+  .QueryStateForStudent-Label {
+    font-size: 0.75em;
+  }
+
+  .zr-QueryState {
+    border: 0.3px solid;
+    border-radius: 0.3em;
+    padding: 0.4em 1em;
+    font-size: 0.7em;
+    margin-right: 1em;
+    font-size: 0.65em;
+  }
+
+  .All-button-togather {
+    padding-bottom: 2.4em;
+    padding-top: 2.4em;
+    gap: 1.4em;
+  }
+}
+/* MIDUEM */
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .main-QueryState {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+  }
+
+  .QueryState-Without-Nav {
+    gap: 3em;
+    padding-top: 0.5em;
+    padding-right: 0em;
+  }
+
+  .showfinalchoice-QueryState {
+    border-radius: 1em;
+    width: 25em;
+    height: 13.5em;
+    padding: 1em 1em;
+    gap: 1.1em;
+    margin-right: 5em;
+  }
+
+  .each-element-of-final-choices-QueryState {
+    font-size: 0.7em;
+    gap: 5em;
+    padding-right: 4em;
+  }
+
+  .QueryStateForStudent {
+    width: 15em;
+    height: 2.5em;
+    margin-right: 9.5em;
+    padding-top: 0.6em;
+    border-radius: 10em;
+  }
+
+  .QueryStateForStudent-Label {
+    font-size: 1.2em;
+  }
+
+  .zr-QueryState {
+    border: 0.3px solid;
+    border-radius: 0.4em;
+    padding: 0.5em 1.1em;
+    font-size: 0.9em;
+    box-shadow: inset 0px 1.5px 1.5px var(--text-shadow-color);
+    margin-right: 1em;
+  }
+
+  .All-button-togather {
+    padding-top: 2em;
+    margin-bottom: 1em;
+    gap: 14em;
+  }
+}

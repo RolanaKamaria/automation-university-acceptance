@@ -1,0 +1,28 @@
+.test4 {
+  height: 30em;
+}
+.test4-ques {
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-top: 1em;
+}
+
+.test4-ch {
+  gap: 2.8em;
+}
+/* MOBILE */
+@media screen and (max-width: 481px) {
+  .test4-ch {
+    gap: 5.1em;
+  }
+}
+
+/* MIDUEM */
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .test4 {
+    height: 22em;
+  }
+  .test4-med {
+    padding-right: 48%;
+  }
+}

@@ -1,0 +1,332 @@
+.mainContainer {
+  padding-left: 4em;
+  padding-right: 4em;
+  color: var(--text-color);
+}
+.viewContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  min-height: 100%;
+}
+.view {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7em;
+  padding: 1em;
+  padding-bottom: 7em;
+}
+
+.special {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.rigester {
+  justify-content: space-between;
+  align-items: center;
+}
+.yaer {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+#selectList {
+  border-bottom: 3px solid var(--text-color);
+  width: 12em;
+  height: 2.5em;
+  margin: 0.7em;
+  border-radius: 0.5em;
+  font-size: 1em;
+  background-color: var(--list-bg);
+  color: var(--text-color);
+  text-align: center;
+}
+.label-list {
+  width: fit-content;
+  font-size: 1.2em;
+}
+#selectList > option {
+  border-radius: 0.5em;
+  border-bottom: 1px solid var(--text-color);
+  background-color: var(--list-bg);
+  color: var(--text-color);
+  font-size: 1.1em;
+  padding: 2em;
+}
+
+.data {
+  display: flex;
+  height: 22em;
+  flex-direction: column;
+  /* justify-content: flex-start;
+  align-items: flex-start; */
+  border-radius: 2em;
+  /* width: 90%; */
+}
+.mark-cont {
+  overflow-y: scroll;
+  width: 100%;
+  overflow-x: hidden;
+}
+.mark-cont::-webkit-scrollbar {
+  display: none;
+}
+.mark-item {
+  border: 1px solid var(--border-bottom-item);
+  background-color: var(--list-bg);
+  border-radius: 0.5em;
+  padding: 0.5em 0.3em 0.5em 0.5em;
+  margin: 0.2em 0.2em 0.5em 0.5em;
+  gap: 5em;
+  font-size: 1em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--text-color);
+}
+#item-r {
+  padding-right: 1em;
+}
+.mark-item > span {
+  width: 25%;
+}
+#sub-mark {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1em;
+  min-width: 150px;
+}
+.head-mark {
+  border: 1px solid var(--border-bottom-item);
+  border-radius: 0.5em;
+  font-size: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 6em;
+  padding-right: 10%;
+  border-bottom: 2px solid var(--text-color);
+  background-color: var(--list-bg);
+  border-radius: 0.5em;
+  padding: 0.5em 0.3em 0.5em 0.5em;
+  margin: 0.2em 0.2em 0.5em 0.5em;
+}
+.head-mark > div {
+  width: 25%;
+}
+
+.sub-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 1em;
+  margin: 1em;
+  gap: 1em;
+  border-top: 2px solid var(--text-color);
+  height: 3em;
+}
+.subject {
+  text-align: center;
+  padding-top: 1em;
+}
+.view-btn {
+  padding-right: 85%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+/* MOBILE */
+@media screen and (max-width: 481px) {
+  .mainContainer {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  .viewContainer {
+    gap: 1em;
+  }
+
+  .list {
+    gap: 0.2em;
+    padding: 0.5em;
+    padding-bottom: 3em;
+  }
+  .yaer {
+    padding-left: 1em;
+  }
+  #selectList {
+    border-bottom: 1px solid var(--text-color);
+    width: 5em;
+    height: 1.8em;
+    margin: 0.2em;
+    border-radius: 0.2em;
+    font-size: 0.5em;
+  }
+  .rigester {
+    width: fit-content;
+  }
+  .label-list {
+    font-size: 0.5em;
+  }
+  #selectList > option {
+    border-radius: 0.2em;
+    font-size: 0.6em;
+    padding: 1.2em;
+  }
+
+  .data {
+    border-radius: 0.7em;
+    height: 10em;
+    overflow-x: scroll;
+  }
+  .mark-item {
+    border-radius: 0.2em;
+    padding: 0.2em 0.1em 0.2em 0.2em;
+    margin: 0.1em 0.1em 0.2em 0.2em;
+    gap: 2em;
+    font-size: 0.6em;
+  }
+  #item-r {
+    padding-right: 0.6em;
+  }
+
+  #sub-mark {
+    display: none;
+    gap: 1.5em;
+  }
+
+  .head-mark {
+    border-radius: 0.2em;
+    font-size: 0.6em;
+    height: 2.5em;
+    padding-right: 10%;
+    border-radius: 0.2em;
+    padding: 0.2em 0.1em 0.5em 0.5em;
+    margin: 0.1em 0.1em 0.2em 0.2em;
+    gap: 2em;
+  }
+
+  .sub-title {
+    display: none;
+  }
+  .subject {
+    display: none;
+  }
+
+  .btn {
+    border: 0.3px solid;
+    border-radius: 0.3em;
+    padding: 0.4em 1em;
+    font-size: 0.7em;
+  }
+  .view-btn {
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+  }
+}
+
+/* MIDUEM */
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .mainContainer {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  .viewContainer {
+    gap: 1.5em;
+  }
+
+  .list {
+    gap: 3em;
+    padding: 1em;
+    padding-bottom: 5em;
+  }
+  #selectList {
+    border-bottom: 2px solid var(--text-color);
+    width: 10em;
+    height: 2.2em;
+    margin: 0.5em;
+    border-radius: 0.3em;
+    font-size: 0.8em;
+  }
+  .label-list {
+    font-size: 1em;
+  }
+  #selectList > option {
+    border-radius: 0.3em;
+    font-size: 0.9em;
+    padding: 1.5em;
+  }
+
+  .data {
+    border-radius: 1.5em;
+    height: 20em;
+  }
+  .mark-item {
+    border-radius: 0.3em;
+    padding: 0.3em 0.2em 0.3em 0.3em;
+    margin: 0.2em 0.2em 0.3em 0.3em;
+    gap: 3.5em;
+    font-size: 0.8em;
+  }
+  #item-r {
+    padding-right: 0.8em;
+  }
+
+  #sub-mark {
+    gap: 3em;
+  }
+  .head-mark {
+    border-radius: 0.3em;
+    font-size: 0.8em;
+    height: 6em;
+    padding-right: 10%;
+    border-bottom: 1px solid var(--text-color);
+    border-radius: 0.3em;
+    padding: 0.3em 0.2em 0.3em 0.3em;
+    margin: 0.2em 0.2em 0.3em 0.3em;
+  }
+
+  .sub-title {
+    border-radius: 0.3em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    font-size: 0.8em;
+    margin: 0.8em;
+    gap: 0.7em;
+    border-top: 1px solid var(--text-color);
+    height: 2em;
+  }
+  .subject {
+    padding: 0em;
+    font-size: 0.8em;
+  }
+  .btn {
+    border: 0.3px solid;
+    border-radius: 0.4em;
+    padding: 0.6em 1.2em;
+    font-size: 0.9em;
+  }
+  .view-btn {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+}

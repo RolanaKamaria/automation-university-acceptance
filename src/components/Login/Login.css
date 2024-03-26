@@ -1,0 +1,294 @@
+.main-login {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+.log-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  /* padding-bottom: 10%; */
+}
+
+.login {
+  padding: 0.5em 1.5em;
+  height: fit-content;
+  padding-top: 7em;
+  padding-bottom: 4em;
+  padding-right: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background: var(--conf-btn);
+  border: 0.5px solid;
+  border-radius: 0.5em;
+  cursor: pointer;
+  padding: 0.7em 1.5em;
+  color: var(--text-color);
+  font-size: 1.1em;
+}
+.back-btn {
+  background: var(--back-btn);
+}
+
+.buttons-box-login {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2em;
+  width: 130%;
+}
+.btn:hover {
+  background-color: #586476;
+}
+.error {
+  color: var(--error-color);
+}
+#a-login {
+  color: var(--text-color);
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25em;
+  line-height: 1.25em;
+  display: block;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  padding-left: 9em;
+}
+
+#inp {
+  box-sizing: border-box;
+  justify-content: flex-end;
+  height: 1.5em;
+  background: var(--inp-bg);
+  border-width: 1px 1px 5px 1px;
+  border-style: solid;
+  border-color: var(--border-log-color);
+  border-radius: 1em;
+  text-align: right;
+  font-family: "Arial";
+  font-style: normal;
+  font-size: 1.25em;
+  line-height: 2em;
+  padding: 1em;
+  margin-bottom: 2em;
+  margin-right: 0em;
+}
+
+.text-login {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 1em;
+  color: var(--text-color);
+}
+.label-login {
+  width: fit-content;
+  font-family: "Arial";
+  font-size: 1.5em;
+  color: var(--text-color);
+}
+
+.text-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5em;
+  padding-bottom: 1em;
+}
+
+#explain {
+  font-size: 1.2em;
+}
+
+.input-label-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5em;
+  padding-bottom: 1em;
+}
+
+.entering {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5em;
+}
+.not-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-right: 12em;
+  padding-bottom: 2em;
+}
+
+.forget {
+  font-size: 1em;
+}
+
+/* MOBILE */
+@media screen and (max-width: 481px) {
+  .main-login {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .login {
+    padding: 0.4em 1em;
+    padding-top: 6em;
+    padding-bottom: 3em;
+  }
+  .not-box {
+    padding-right: 6.5em;
+    padding-bottom: 1.5em;
+  }
+  .text-label {
+    gap: 3em;
+    padding-bottom: 0em;
+    padding-right: 0em;
+  }
+
+  #explain {
+    font-size: 0.6em;
+  }
+
+  .label-login {
+    font-size: 0.6em;
+  }
+
+  .buttons-box-login {
+    gap: 1em;
+    padding-top: 1em;
+    width: 100%;
+    padding-right: 3em;
+  }
+  .btn {
+    border: 0.3px solid;
+    border-radius: 0.3em;
+    padding: 0.4em 1em;
+    font-size: 0.7em;
+  }
+  .text-login {
+    font-size: 0.7em;
+  }
+
+  #a-login {
+    font-size: 0.3em;
+    display: block;
+    padding-top: 0em;
+    padding-bottom: 0.5em;
+  }
+
+  #inp {
+    height: 2em;
+    border-width: 1px 1px 3px 1px;
+    border-style: solid;
+    border-radius: 0.5em;
+    font-size: 0.75em;
+    padding: 0.5em;
+    width: 8em;
+    /* padding: 0.5em 0.5em 1em 1em; */
+    /*   
+  margin-bottom: 0.5em;
+  margin-right:0.5em ; */
+  }
+
+  .entering {
+    gap: 0.5em;
+  }
+
+  .forget {
+    font-size: 0.7em;
+  }
+
+  .error {
+    font-size: 0.7em;
+  }
+}
+
+/* MIDUEM */
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .mainLogin {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+  .login {
+    padding: 0.45em 1.3em;
+    padding-top: 6.5em;
+    padding-bottom: 3.5em;
+  }
+  .not-box {
+    padding-right: 6em;
+    padding-bottom: 1em;
+  }
+
+  .text-label {
+    gap: 2.7em;
+    padding-bottom: 0.75em;
+  }
+
+  .label-login {
+    font-size: 1em;
+  }
+
+  #explain {
+    font-size: 0.7085em;
+  }
+
+  .buttons-box-login {
+    gap: 1.5em;
+    padding-top: 1em;
+    width: 130%;
+    padding-right: 0em;
+  }
+  .btn {
+    border: 0.3px solid;
+    border-radius: 0.4em;
+    padding: 0.5em 1.1em;
+    font-size: 0.9em;
+    box-shadow: inset 0px 1.5px 1.5px var(--text-shadow-color);
+  }
+  .text-login {
+    font-size: 1em;
+  }
+
+  .log-nav {
+    padding-bottom: 10%;
+
+    /* gap: 0.5em; */
+  }
+
+  #a-login {
+    font-size: 0.75em;
+    display: block;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+  }
+
+  #inp {
+    height: 2em;
+    border-width: 1px 1px 4px 1px;
+    border-radius: 0.7em;
+    font-size: 0.9em;
+    padding: 1em;
+  }
+
+  .forget {
+    font-size: 0.8em;
+    padding-top: 0em;
+  }
+
+  .error {
+    font-size: 0.73em;
+  }
+}

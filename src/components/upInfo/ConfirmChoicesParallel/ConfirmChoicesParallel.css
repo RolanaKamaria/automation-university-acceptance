@@ -1,0 +1,374 @@
+.main-ConfirmChoiceParallel {
+  padding-left: 4em;
+  padding-right: 4em;
+  background-color: var(--bg-color);
+}
+.browsefiles {
+  display: none;
+}
+
+.ConfirmChoicesParallel {
+  padding: 2em 1.5em;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-start;
+}
+
+.BothSquares {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.Just-two-row-squares {
+  display: flex;
+  flex-direction: row;
+  gap: 8em;
+}
+.squarewithtexts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.upInfoNames {
+  font-size: 0.7em;
+  color: var(--text-color);
+}
+
+.upinfoLogo {
+  width: 6em;
+  height: 6em;
+}
+
+.browsefileLabels {
+  background: var(--back-btn);
+  border: 1px solid var(--border-upinfo-color);
+  border-radius: 20px;
+  width: 7em;
+  height: 1.8em;
+  padding-top: 0.2em;
+  cursor: pointer;
+}
+.filebrowsetexts {
+  text-align: center;
+  font-size: 0.7em;
+}
+.upInfoSquares {
+  display: flex;
+  flex-direction: column;
+  border: 0.01px dashed var(--border-upinfo-color);
+  width: 14em;
+  height: 11em;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.ID-Numbers-Input {
+  width: 9em;
+  height: 5em;
+}
+
+.ID-Numbers-Label {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  padding-top: 1em;
+}
+
+.ID-Number-Inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0em;
+  padding-top: 0em;
+}
+
+/* .allTheReqPap{
+    display:flex ;
+    flex-direction: row;
+    gap: 3em;
+ } */
+
+.ID-Numbers {
+  width: fit-content;
+  font-family: "Arial";
+  font-size: 1.3em;
+  color: var(--text-color);
+}
+
+.buttonForConfirmChoices {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  padding-right: 60em;
+  padding-top: 3em;
+}
+
+.some-contents-cc {
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+}
+
+.finalChoices {
+  display: flex;
+  flex-direction: row;
+  gap: 8em;
+}
+
+.showfinalchoices {
+  background: var(--list-bg);
+  border-radius: 1em;
+  width: 24em;
+  height: 35em;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 1.5em;
+  gap: 2em;
+}
+
+.numberOfTheChoices {
+  width: 1.7em;
+  height: 1.7em;
+  background-color: var(--bg-color);
+  border: 0.1px solid var(--header-border);
+  border-radius: 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.each-element-final-choices {
+  display: flex;
+  flex-direction: row;
+  font-size: 1em;
+  color: var(--text-color);
+  gap: 3em;
+}
+
+.collageChosen-Name {
+  display: flex;
+  flex-direction: column;
+  width: 10em;
+}
+
+.collageChosen-City {
+  display: flex;
+  flex-direction: column;
+}
+
+/* MOBILE */
+@media screen and (max-width: 481px) {
+  .main-ConfirmChoiceParallel {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .ConfirmChoicesParallel {
+    padding: 1.5em 0.3em;
+  }
+
+  .BothSquares {
+    padding-top: 1em;
+    gap: 0.7em;
+  }
+
+  .Just-two-row-squares {
+    gap: 2.3em;
+  }
+
+  .squarewithtexts {
+    gap: 0.2em;
+  }
+
+  .upInfoNames {
+    font-size: 0.2em;
+  }
+
+  .upinfoLogo {
+    width: 2em;
+    height: 2em;
+  }
+
+  .fileBrows {
+    border-radius: 10px;
+    width: fit-content;
+    font-size: 0.3em;
+  }
+
+  .upInfoSquares {
+    width: 5em;
+    height: 5em;
+    gap: 0.5em;
+  }
+
+  .ID-Numbers-Input {
+    width: 6em;
+    height: 0.4em;
+  }
+
+  .ID-Numbers-Label {
+    gap: 2em;
+    padding-top: 0.1em;
+    width: 4em;
+  }
+
+  .ID-Number-Inputs {
+    gap: 0em;
+    padding-top: 0em;
+  }
+
+  /* .allTheReqPap{
+            gap: 1em;
+         } */
+
+  .ID-Numbers {
+    font-size: 0.55em;
+  }
+
+  .buttonForConfirmChoices {
+    gap: 1em;
+    padding-right: 12em;
+  }
+
+  .finalChoices {
+    gap: 1em;
+  }
+
+  .showfinalchoices {
+    border-radius: 1em;
+    width: 7em;
+    height: 20em;
+    padding: 0.5em 0.5em;
+    gap: 1em;
+  }
+
+  .numberOfTheChoices {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 5em;
+  }
+
+  .each-element-final-choices {
+    font-size: 0.4em;
+    gap: 0.1em;
+  }
+  .browsefileLabels {
+    border-radius: 0.5em;
+    width: 3em;
+    height: 0.8em;
+    padding-top: 0.1em;
+  }
+  .filebrowsetexts {
+    font-size: 0.2em;
+  }
+}
+
+/* MIDUEM */
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .main-ConfirmChoiceParallel {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+  .ConfirmChoicesParallel {
+    padding: 1.7em 1.2em;
+  }
+
+  .BothSquares {
+    padding-top: 1.5em;
+    gap: 2em;
+  }
+
+  .Just-two-row-squares {
+    gap: 4em;
+  }
+
+  .squarewithtexts {
+    gap: 0.4em;
+  }
+
+  .upInfoNames {
+    font-size: 0.5em;
+  }
+
+  .upinfoLogo {
+    width: 4.5em;
+    height: 4.5em;
+  }
+
+  .fileBrows {
+    border-radius: 12px;
+    padding: 0.3em 0.5em;
+  }
+
+  .upInfoSquares {
+    width: 9em;
+    height: 8em;
+    gap: 1.5em;
+  }
+
+  .ID-Numbers-Input {
+    width: 10em;
+    height: 0.65em;
+  }
+
+  .ID-Numbers-Label {
+    gap: 2.5em;
+    padding-top: 0.2em;
+  }
+
+  .ID-Number-Inputs {
+    gap: 0em;
+    padding-top: 0em;
+  }
+
+  .allTheReqPap {
+    gap: 2em;
+  }
+  .ID-Numbers {
+    font-size: 1.05em;
+  }
+
+  .buttonForConfirmChoices {
+    gap: 1.1em;
+    padding-right: 31.5em;
+  }
+
+  .finalChoices {
+    gap: 4em;
+  }
+  .showfinalchoices::-webkit-scrollbar {
+    display: none;
+  }
+  .showfinalchoices {
+    border-radius: 1em;
+    width: 15em;
+    height: 28em;
+    padding: 0.7em 1em;
+    gap: 1.5em;
+  }
+
+  .numberOfTheChoices {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 8em;
+  }
+
+  .each-element-final-choices {
+    font-size: 0.7em;
+    gap: 0.5em;
+  }
+  .browsefileLabels {
+    border-radius: 1em;
+    width: 5.5em;
+    height: 1.6em;
+    padding-top: 0.1em;
+  }
+  .filebrowsetexts {
+    font-size: 0.6em;
+  }
+}

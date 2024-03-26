@@ -1,0 +1,10 @@
+.test5 {
+  gap: 2.3em;
+}
+
+/* MOBILE */
+@media screen and (max-width: 481px) {
+  .test5 {
+    gap: 2em;
+  }
+}

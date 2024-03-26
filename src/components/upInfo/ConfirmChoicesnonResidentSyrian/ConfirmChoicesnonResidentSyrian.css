@@ -1,0 +1,397 @@
+.main-ConfirmChoiceNRS {
+  padding-left: 4em;
+  padding-right: 4em;
+  background-color: var(--bg-color);
+}
+.browsefile-NRS {
+  display: none;
+}
+
+.ConfirmChoices-NRS {
+  padding: 2em 1.5em;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-start;
+}
+
+.All-Square-NRS {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.three-row-squares {
+  display: flex;
+  flex-direction: row;
+  gap: 4em;
+}
+
+.strange-look {
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+  padding-top: 2em;
+}
+
+.forMoblieOnly {
+  display: flex;
+  flex-direction: row;
+  gap: 4em;
+}
+/* .input-togather{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3em;
+    padding-right:1em ;
+} */
+
+.squarewithtext-NRS {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+}
+
+.upInfoName-NRS {
+  font-size: 0.6em;
+  color: var(--text-color);
+}
+
+.upinfoLogo {
+  width: 4.5em;
+  height: 4.5em;
+}
+
+.browsefileLabel-NRS {
+  background: var(--back-btn);
+  border: 1px solid var(--border-upinfo-color);
+  border-radius: 20px;
+  width: 6.5em;
+  height: 1.7em;
+  padding-top: 0.1em;
+  cursor: pointer;
+}
+
+.filebrowsetext-NRS {
+  text-align: center;
+  font-size: 0.7em;
+}
+
+.upInfoSquare-NRS {
+  display: flex;
+  flex-direction: column;
+  border: 0.01px dashed var(--border-upinfo-color);
+  width: 12.5em;
+  height: 10em;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.ID-Number-Input-NRS {
+  width: 8.5em;
+  height: 3em;
+}
+
+.ID-Number-Label-NRS {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding-top: 3.2em;
+}
+
+.ID-Number-NRS {
+  width: fit-content;
+  font-family: "Arial";
+  font-size: 1.1em;
+  color: var(--text-color);
+}
+
+.buttonForConfirmChoices {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  padding-right: 60em;
+}
+
+.some-content-cc-NRS {
+  display: flex;
+  flex-direction: column;
+}
+
+.finalChoiceForNRS {
+  display: flex;
+  flex-direction: row;
+  gap: 4em;
+}
+
+.showfinalchoice-NRS {
+  background: var(--list-bg);
+  border-radius: 1em;
+  width: 24em;
+  height: 40em;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 1.5em;
+  gap: 2em;
+}
+
+.numberOfTheChoice-NRS {
+  width: 1.7em;
+  height: 1.7em;
+  background-color: var(--bg-color);
+  border: 0.1px solid var(--header-border);
+  border-radius: 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.each-element-of-final-choices-NRS {
+  display: flex;
+  flex-direction: row;
+  font-size: 1em;
+  color: var(--text-color);
+  gap: 3em;
+}
+
+.collageChosenName-NRS {
+  display: flex;
+  flex-direction: column;
+  width: 10em;
+}
+
+.collageChosenCity-NRS {
+  display: flex;
+  flex-direction: column;
+}
+
+/* MOBILE */
+@media screen and (max-width: 481px) {
+  .main-ConfirmChoiceNRS {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .ConfirmChoices-NRS {
+    padding: 1.5em 0.3em;
+  }
+
+  .All-Square-NRS {
+    padding-top: 1em;
+    gap: 0.5em;
+    flex-direction: row;
+  }
+
+  .three-row-squares {
+    gap: 0.7em;
+    flex-direction: column;
+  }
+
+  .strange-look {
+    gap: 1em;
+    padding-top: 1em;
+    flex-direction: column;
+  }
+  .forMoblieOnly {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5em;
+  }
+  .input-togather {
+    padding-top: 0.5em;
+    padding-right: 0.3em;
+  }
+  .squarewithtext-NRS {
+    gap: 0.2em;
+  }
+
+  .upInfoName-NRS {
+    font-size: 0.15em;
+  }
+
+  .upinfoLogo {
+    width: 2em;
+    height: 2em;
+  }
+
+  .fileBrows-NRS {
+    border-radius: 10px;
+    width: fit-content;
+    font-size: 0.3em;
+  }
+
+  .upInfoSquare-NRS {
+    width: 5em;
+    height: 5em;
+    gap: 0.5em;
+  }
+
+  .ID-Number-Input-NRS {
+    width: 5em;
+    height: 0.4em;
+  }
+
+  .ID-Number-Label-NRS {
+    gap: 0.2em;
+    padding-top: 0em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ID-Number-NRS {
+    font-size: 0.6em;
+  }
+
+  .buttonForConfirmChoices {
+    gap: 1em;
+    padding-right: 12em;
+  }
+
+  .finalChoiceForNRS {
+    gap: 1em;
+  }
+
+  .showfinalchoice-NRS {
+    border-radius: 1em;
+    width: 7em;
+    height: 30em;
+    padding: 0.5em 0.5em;
+    gap: 1em;
+  }
+
+  .numberOfTheChoice-NRS {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 5em;
+  }
+
+  .each-element-of-final-choices-NRS {
+    font-size: 0.4em;
+    gap: 0.1em;
+  }
+  .browsefileLabel-NRS {
+    border-radius: 0.5em;
+    width: 3em;
+    height: 0.9em;
+    padding-top: 0.1em;
+  }
+  .filebrowsetext-NRS {
+    font-size: 0.3em;
+  }
+}
+
+/* MIDUEM */
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .main-ConfirmChoiceNRS {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+  .ConfirmChoices-NRS {
+    padding: 1.7em 1em;
+  }
+
+  .All-Square-NRS {
+    padding-top: 1.5em;
+    gap: 2em;
+  }
+
+  .three-row-squares {
+    gap: 1.1em;
+  }
+
+  .strange-look {
+    gap: 1em;
+    padding-top: 1em;
+  }
+
+  .forMoblieOnly {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+  }
+  .input-togather {
+    padding-top: 2em;
+    padding-right: 0.6em;
+  }
+
+  .squarewithtext-NRS {
+    gap: 0.3em;
+  }
+
+  .upInfoName-NRS {
+    font-size: 0.45em;
+  }
+
+  .upinfoLogo {
+    width: 3em;
+    height: 3em;
+  }
+
+  .fileBrows-NRS {
+    border-radius: 12px;
+    padding: 0.3em 0.5em;
+  }
+
+  .upInfoSquare-NRS {
+    width: 7.5em;
+    height: 7em;
+    gap: 1.1em;
+  }
+
+  .ID-Number-Input-NRS {
+    width: 8em;
+    height: 0.65em;
+  }
+
+  .ID-Number-Label-NRS {
+    gap: 1em;
+    padding-top: 2em;
+  }
+
+  .ID-Number-NRS {
+    font-size: 0.8em;
+  }
+
+  .buttonForConfirmChoices {
+    gap: 1.1em;
+    padding-right: 31.5em;
+  }
+
+  .finalChoiceForNRS {
+    gap: 3em;
+  }
+  .showfinalchoice-NRS::-webkit-scrollbar {
+    display: none;
+  }
+  .showfinalchoice-NRS {
+    border-radius: 1em;
+    width: 15em;
+    height: 30em;
+    padding: 0.7em 1em;
+    gap: 1.5em;
+  }
+
+  .numberOfTheChoice-NRS {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 8em;
+  }
+
+  .each-element-of-final-choices-NRS {
+    font-size: 0.6em;
+    gap: 0.5em;
+  }
+  .browsefileLabel-NRS {
+    border-radius: 1em;
+    width: 4.1em;
+    height: 1.2em;
+    padding-top: 0.1em;
+  }
+  .filebrowsetext-NRS {
+    font-size: 0.5em;
+  }
+}

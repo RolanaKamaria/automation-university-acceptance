@@ -1,0 +1,9 @@
+/* MIDUEM */
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .test6 {
+    gap: 2.2em;
+  }
+  .test6-ques {
+    margin-top: 1em;
+  }
+}

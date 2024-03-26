@@ -1,38 +1,149 @@
-.App {
-  text-align: center;
+#light {
+  --bg-color: #d8dee7;
+  --nav-bg: #a7b3be;
+  --border-bottom-nav: #ffffff80;
+  --text-hover: #fff;
+  --nav-hover: #5f6e85;
+  --text-color: #2f2e41;
+  --list-bg: #f0f2f5;
+  --border-bottom-item: #ffffffda;
+  --text-shadow-color: #00000040;
+  --main-page-bottom: #bcc5cf78;
+  --border-log-color: #2f2e41cf;
+  --inp-bg: #f7f8fa;
+  --error-color: #e40505;
+  ---btn-hover: #586476;
+  --header-border: #bfa179;
+  --footer-border: #abb9cd;
+  --back-btn: #a7b3be96;
+  --conf-btn: #4b5b6d8f;
+  --sec-1: #a55d00;
+  --label-border: #083e62;
+  --data-color: #1e1c35;
+  --desire-form-bg: #eceff3;
+  --rad-btn: #13a880;
+  --box-card-border: #bfa179;
+  --box-card-bg: #d9d9d9;
+  --box-title: #bfa179;
+  --border-upinfo-color: #2f2e41ff;
+  --choose-bg: #c2cbd5;
+  --choice-bg: #afb7c0;
+  --box-url: #ae8550;
+  --done: #bfa179;
+  --Query-state: #e4810056;
+  --edit: rgba(76, 192, 76, 0.747);
+  --delete: rgb(255, 87, 71);
+  --background-of-view-final-choice: #bcc5cf;
+  --border-Helper-1: #0003;
+  --border-Helper-2: #00000024;
+  --border-Helper-3: #0000001f;
+}
+#dark {
+  --bg-color: #64637b;
+  --nav-bg: #88889e;
+  --border-bottom-nav: #dadff8da;
+  --text-hover: #efeeeeda;
+  --nav-hover: #d3d0d080;
+  --text-color: #181a30;
+  --list-bg: #9e9cc2;
+  --border-bottom-item: #dadff8da;
+  --text-shadow-color: #f6f6f683;
+  --main-page-bottom: #787692;
+  --border-log-color: #71717dcf;
+  --inp-bg: #d4cbcb;
+  --error-color: #e40505;
+  ---btn-hover: #8e949d;
+  --header-border: #b78f02;
+  --footer-border: #3e3f513c;
+  --back-btn: #8896a496;
+  --conf-btn: #ccd5e18f;
+  --sec-1: #b78f02;
+  --label-border: #30345d;
+  --data-color: #040a32;
+  --desire-form-bg: #9090b7;
+  --rad-btn: #13a880;
+  --box-card-border: #b78f02;
+  --box-card-bg: #8f8870;
+  --box-title: #655316;
+  --choose-bg: #a0a0b5;
+  --border-upinfo-color: #2f2e41ff;
+  --choice-bg: #9191a5;
+  --box-url: #897021;
+  --done: #bfa179;
+  --Query-state: #c59e6c;
+  --edit: rgba(76, 192, 76, 0.747);
+  --delete: rgb(255, 87, 71);
+  --background-of-view-final-choice: #9090b7;
+  --border-Helper-1: #d4d4d4c5;
+  --border-Helper-2: #4e4e4ec5;
+  --border-Helper-3: #d4d4d4c5;
+}
+:root {
+  /* --bg-color:#64637b; */
+  /* --bg-color: #d8dee7; */
+}
+.mainbg {
+  background-color: var(--bg-color);
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+#bt-theme {
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: var(--bg-color);
+  color: var(--header-border);
+  transition: all 0.5s ease;
+  border: none;
+  width: 4em;
+  height: 4em;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 1em;
 }
 
-.App-link {
-  color: #61dafb;
+.theme-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width: fit-content;
+  height: fit-content;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* MOBILE */
+@media screen and (max-width: 481px) {
+  #bt-theme {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .theme-toggle {
+    display: none;
+  }
+}
+
+/* MIDUEM */
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  #bt-theme {
+    width: 3em;
+    height: 3em;
+  }
+  .theme-toggle {
+    top: 5px;
+    right: 15px;
   }
 }

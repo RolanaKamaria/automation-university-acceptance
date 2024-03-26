@@ -1,0 +1,356 @@
+.main-ConfirmChoiceSonOfMartyrs {
+  padding-left: 4em;
+  padding-right: 4em;
+  background-color: var(--bg-color);
+}
+.browsefile-SonOfMartyrs {
+  display: none;
+}
+
+.ConfirmChoices-SonOfMartyrs {
+  padding: 2em 1.5em;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-start;
+}
+
+.All-Square-SonOfMartyrs {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.three-row-squares-son {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+}
+
+.squarewithtext-SonOfMartyrs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+}
+
+.upInfoName-SonOfMartyrs {
+  font-size: 0.6em;
+  color: var(--text-color);
+}
+
+.upinfoLogo {
+  width: 4.5em;
+  height: 4.5em;
+}
+
+.browsefileLabel-SonOfMartyrs {
+  background: var(--back-btn);
+  border: 1px solid var(--border-upinfo-color);
+  border-radius: 20px;
+  width: 6.5em;
+  height: 1.7em;
+  padding-top: 0.1em;
+  cursor: pointer;
+}
+
+.filebrowsetext-SonOfMartyrs {
+  text-align: center;
+  font-size: 0.7em;
+}
+
+.upInfoSquare-SonOfMartyrs {
+  display: flex;
+  flex-direction: column;
+  border: 0.01px dashed var(--border-upinfo-color);
+  width: 12.5em;
+  height: 10em;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.ID-Number-Input-SonOfMartyrs {
+  width: 10em;
+  height: 5em;
+}
+
+.ID-Number-Label-SonOfMartyrs {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  padding-top: 3em;
+  padding-left: 10em;
+  justify-content: center;
+}
+
+.ID-Number-SonOfMartyrs {
+  width: fit-content;
+  font-family: "Arial";
+  font-size: 1.3em;
+  color: var(--text-color);
+}
+
+.buttonForConfirmChoices {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  padding-right: 60em;
+}
+
+.some-content-cc-SonOfMartyrs {
+  display: flex;
+  flex-direction: column;
+}
+
+.finalChoiceForSonOfMartyrs {
+  display: flex;
+  flex-direction: row;
+  gap: 4em;
+}
+
+.showfinalchoice-SonOfMartyrs {
+  background: var(--list-bg);
+  border-radius: 1em;
+  width: 24em;
+  height: 30em;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 1.5em;
+  gap: 2em;
+}
+
+.numberOfTheChoice-SonOfMartyrs {
+  width: 1.7em;
+  height: 1.7em;
+  background-color: var(--bg-color);
+  border: 0.1px solid var(--header-border);
+  border-radius: 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.each-element-of-final-choices-SonOfMartyrs {
+  display: flex;
+  flex-direction: row;
+  font-size: 1em;
+  color: var(--text-color);
+  gap: 3em;
+}
+
+.collageChosenName-SonOfMartyrs {
+  display: flex;
+  flex-direction: column;
+  width: 10em;
+}
+
+.collageChosenCity-SonOfMartyrs {
+  display: flex;
+  flex-direction: column;
+}
+
+/* MOBILE */
+@media screen and (max-width: 481px) {
+  .main-ConfirmChoiceSonOfMartyrs {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .ConfirmChoices-SonOfMartyrs {
+    padding: 1.5em 0.3em;
+  }
+
+  .All-Square-SonOfMartyrs {
+    padding-top: 1em;
+    gap: 2em;
+    flex-direction: row;
+  }
+
+  .three-row-squares-son {
+    gap: 0.7em;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .squarewithtext-SonOfMartyrs {
+    gap: 0.2em;
+  }
+
+  .upInfoName-SonOfMartyrs {
+    font-size: 0.15em;
+  }
+
+  .upinfoLogo {
+    width: 2em;
+    height: 2em;
+  }
+
+  .fileBrows-SonOfMartyrs {
+    border-radius: 10px;
+    width: fit-content;
+    font-size: 0.3em;
+  }
+
+  .upInfoSquare-SonOfMartyrs {
+    width: 5em;
+    height: 5em;
+    gap: 0.5em;
+  }
+
+  .ID-Number-Input-SonOfMartyrs {
+    width: 6em;
+    height: 0.4em;
+  }
+
+  .ID-Number-Label-SonOfMartyrs {
+    gap: 0.5em;
+    padding-top: 3em;
+    justify-content: right;
+    padding-left: 0em;
+  }
+
+  .ID-Number-SonOfMartyrs {
+    font-size: 0.6em;
+  }
+
+  .buttonForConfirmChoices {
+    gap: 1em;
+    padding-right: 12em;
+  }
+
+  .finalChoiceForSonOfMartyrs {
+    gap: 1em;
+  }
+
+  .showfinalchoice-SonOfMartyrs {
+    border-radius: 1em;
+    width: 7em;
+    height: 24.5em;
+    padding: 0.5em 0.5em;
+    gap: 1em;
+  }
+
+  .numberOfTheChoice-SonOfMartyrs {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 5em;
+  }
+
+  .each-element-of-final-choices-SonOfMartyrs {
+    font-size: 0.4em;
+    gap: 0.1em;
+  }
+  .browsefileLabel-SonOfMartyrs {
+    border-radius: 0.5em;
+    width: 3em;
+    height: 0.9em;
+    padding-top: 0.1em;
+  }
+  .filebrowsetext-SonOfMartyrs {
+    font-size: 0.3em;
+  }
+}
+
+/* MIDUEM */
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .main-ConfirmChoiceSonOfMartyrs {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+  .ConfirmChoices-SonOfMartyrs {
+    padding: 1.7em 1em;
+  }
+
+  .All-Square-SonOfMartyrs {
+    padding-top: 1.5em;
+    gap: 2em;
+  }
+
+  .three-row-squares-son {
+    gap: 1.1em;
+  }
+
+  .squarewithtext-SonOfMartyrs {
+    gap: 0.3em;
+  }
+
+  .upInfoName-SonOfMartyrs {
+    font-size: 0.45em;
+  }
+
+  .upinfoLogo {
+    width: 3em;
+    height: 3em;
+  }
+
+  .fileBrows-SonOfMartyrs {
+    border-radius: 12px;
+    padding: 0.3em 0.5em;
+  }
+
+  .upInfoSquare-SonOfMartyrs {
+    width: 7.5em;
+    height: 7em;
+    gap: 1.1em;
+  }
+
+  .ID-Number-Input-SonOfMartyrs {
+    width: 10em;
+    height: 0.65em;
+  }
+
+  .ID-Number-Label-SonOfMartyrs {
+    gap: 2em;
+    padding-top: 2.5em;
+    justify-content: center;
+    padding-left: 0em;
+  }
+
+  .ID-Number-SonOfMartyrs {
+    font-size: 1.05em;
+  }
+
+  .buttonForConfirmChoices {
+    gap: 1.1em;
+    padding-right: 31.5em;
+  }
+
+  .finalChoiceForSonOfMartyrs {
+    gap: 2em;
+  }
+
+  .showfinalchoice-SonOfMartyrs {
+    border-radius: 1em;
+    width: 15em;
+    height: 25em;
+    padding: 0.7em 1em;
+    gap: 1.5em;
+  }
+  .showfinalchoice-SonOfMartyrs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .numberOfTheChoice-SonOfMartyrs {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 8em;
+  }
+
+  .each-element-of-final-choices-SonOfMartyrs {
+    font-size: 0.6em;
+    gap: 0.5em;
+  }
+  .browsefileLabel-SonOfMartyrs {
+    border-radius: 1em;
+    width: 4.1em;
+    height: 1.2em;
+    padding-top: 0.1em;
+  }
+  .filebrowsetext-SonOfMartyrs {
+    font-size: 0.5em;
+  }
+}

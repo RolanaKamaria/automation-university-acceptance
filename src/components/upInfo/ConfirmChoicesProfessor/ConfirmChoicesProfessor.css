@@ -1,0 +1,349 @@
+.main-ConfirmChoiceprof {
+  padding-left: 4em;
+  padding-right: 4em;
+
+  background-color: var(--bg-color);
+}
+.browsefile-prof {
+  display: none;
+}
+
+.ConfirmChoices-prof {
+  padding: 2em 1.5em;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-start;
+}
+
+.All-Square-prof {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.three-row-squares {
+  display: flex;
+  flex-direction: row;
+  gap: 4em;
+}
+
+.squarewithtext-prof {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+}
+
+.upInfoName-prof {
+  font-size: 0.6em;
+  color: var(--text-color);
+}
+
+.upinfoLogo {
+  width: 4.5em;
+  height: 4.5em;
+}
+
+.browsefileLabel-prof {
+  background: var(--back-btn);
+  border: 1px solid var(--border-upinfo-color);
+  border-radius: 20px;
+  width: 6.5em;
+  height: 1.7em;
+  padding-top: 0.1em;
+  cursor: pointer;
+}
+
+.filebrowsetext-prof {
+  text-align: center;
+  font-size: 0.7em;
+}
+
+.upInfoSquare-prof {
+  display: flex;
+  flex-direction: column;
+  border: 0.01px dashed var(--border-upinfo-color);
+  width: 12.5em;
+  height: 10em;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.ID-Number-Input-prof {
+  width: 10em;
+  height: 5em;
+}
+
+.ID-Number-Label-prof {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  padding-top: 3em;
+}
+
+.ID-Number-prof {
+  width: fit-content;
+  font-family: "Arial";
+  font-size: 1.3em;
+  color: var(--text-color);
+}
+
+.buttonForConfirmChoices {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  padding-right: 60em;
+}
+
+.some-content-cc-prof {
+  display: flex;
+  flex-direction: column;
+}
+
+.finalChoiceForprof {
+  display: flex;
+  flex-direction: row;
+  gap: 4em;
+}
+
+.showfinalchoice-prof {
+  background: var(--list-bg);
+  border-radius: 1em;
+  width: 24em;
+  height: 30em;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 1.5em;
+  gap: 2em;
+}
+
+.numberOfTheChoice-prof {
+  width: 1.7em;
+  height: 1.7em;
+  background-color: var(--bg-color);
+  border: 0.1px solid var(--header-border);
+  border-radius: 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.each-element-of-final-choices-prof {
+  display: flex;
+  flex-direction: row;
+  font-size: 1em;
+  color: var(--text-color);
+  gap: 3em;
+}
+
+.collageChosenName-prof {
+  display: flex;
+  flex-direction: column;
+  width: 10em;
+}
+
+.collageChosenCity-prof {
+  display: flex;
+  flex-direction: column;
+}
+
+/* MOBILE */
+@media screen and (max-width: 481px) {
+  .main-ConfirmChoiceprof {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .ConfirmChoices-prof {
+    padding: 1.5em 0.3em;
+  }
+
+  .All-Square-prof {
+    padding-top: 1em;
+    gap: 2em;
+    flex-direction: row;
+  }
+
+  .three-row-squares {
+    gap: 0.7em;
+    flex-direction: column;
+  }
+
+  .squarewithtext-prof {
+    gap: 0.2em;
+  }
+
+  .upInfoName-prof {
+    font-size: 0.15em;
+  }
+
+  .upinfoLogo {
+    width: 2em;
+    height: 2em;
+  }
+
+  .fileBrows-prof {
+    border-radius: 10px;
+    width: fit-content;
+    font-size: 0.3em;
+  }
+
+  .upInfoSquare-prof {
+    width: 5em;
+    height: 5em;
+    gap: 0.5em;
+  }
+
+  .ID-Number-Input-prof {
+    width: 6em;
+    height: 0.4em;
+  }
+
+  .ID-Number-Label-prof {
+    gap: 1em;
+    padding-top: 2.5em;
+  }
+
+  .ID-Number-prof {
+    font-size: 0.6em;
+  }
+
+  .buttonForConfirmChoices {
+    gap: 1em;
+    padding-right: 12em;
+  }
+
+  .finalChoiceForprof {
+    gap: 1em;
+  }
+  .showfinalchoice-prof::-webkit-scrollbar {
+    display: none;
+  }
+
+  .showfinalchoice-prof {
+    border-radius: 1em;
+    width: 7em;
+    height: 24.5em;
+    padding: 0.5em 0.5em;
+    gap: 1em;
+  }
+
+  .numberOfTheChoice-prof {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 5em;
+  }
+
+  .each-element-of-final-choices-prof {
+    font-size: 0.4em;
+    gap: 0.1em;
+  }
+  .browsefileLabel-prof {
+    border-radius: 0.5em;
+    width: 3em;
+    height: 0.9em;
+    padding-top: 0.1em;
+  }
+  .filebrowsetext-prof {
+    font-size: 0.3em;
+  }
+}
+
+/* MIDUEM */
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .main-ConfirmChoiceprof {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+  .ConfirmChoices-prof {
+    padding: 1.7em 1em;
+  }
+
+  .All-Square-prof {
+    padding-top: 1.5em;
+    gap: 2em;
+  }
+
+  .three-row-squares {
+    gap: 1.1em;
+  }
+
+  .squarewithtext-prof {
+    gap: 0.3em;
+  }
+
+  .upInfoName-prof {
+    font-size: 0.45em;
+  }
+
+  .upinfoLogo {
+    width: 3em;
+    height: 3em;
+  }
+
+  .fileBrows-prof {
+    border-radius: 12px;
+    padding: 0.3em 0.5em;
+  }
+
+  .upInfoSquare-prof {
+    width: 7.5em;
+    height: 7em;
+    gap: 1.1em;
+  }
+
+  .ID-Number-Input-prof {
+    width: 10em;
+    height: 0.65em;
+  }
+
+  .ID-Number-Label-prof {
+    gap: 2em;
+    padding-top: 2.5em;
+  }
+
+  .ID-Number-prof {
+    font-size: 1.05em;
+  }
+
+  .buttonForConfirmChoices {
+    gap: 1.1em;
+    padding-right: 31.5em;
+  }
+
+  .finalChoiceForprof {
+    gap: 2em;
+  }
+
+  .showfinalchoice-prof {
+    border-radius: 1em;
+    width: 15em;
+    height: 25em;
+    padding: 0.7em 1em;
+    gap: 1.5em;
+  }
+
+  .numberOfTheChoice-prof {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 8em;
+  }
+
+  .each-element-of-final-choices-prof {
+    font-size: 0.6em;
+    gap: 0.5em;
+  }
+  .browsefileLabel-prof {
+    border-radius: 1em;
+    width: 4.1em;
+    height: 1.2em;
+    padding-top: 0.1em;
+  }
+  .filebrowsetext-prof {
+    font-size: 0.5em;
+  }
+}

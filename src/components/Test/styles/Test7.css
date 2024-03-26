@@ -1,0 +1,6 @@
+/* MIDUEM */
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .test7 {
+    gap: 2em;
+  }
+}

@@ -1,0 +1,17 @@
+.test2 {
+  padding-left: 1em;
+  margin-top: 1em;
+}
+
+/* MIDUEM */
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .test2 {
+    margin-top: 1em;
+  }
+}
+/* MOBILE */
+@media screen and (max-width: 481px) {
+  .test2 {
+    margin-top: 1em;
+  }
+}

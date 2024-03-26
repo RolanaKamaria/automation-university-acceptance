@@ -1,0 +1,246 @@
+.main-test1 {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+.test1-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  min-height: 100%;
+}
+.test-content {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5em;
+}
+.choose-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2em;
+  padding-right: 53%;
+  gap: 2.5em;
+}
+.form-container {
+  margin: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50em;
+  height: 28em;
+  background: var(--desire-form-bg);
+  border: 3px solid var(--header-border);
+  box-shadow: 0px 4px 4px var(--text-shadow-color);
+  border-radius: 1em;
+}
+.question-container {
+  margin: 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3em;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 2em;
+  color: var(--text-color);
+}
+.chooses {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  padding-right: 8em;
+}
+.choose-label {
+  padding: 0.2em 1em;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: var(--text-color);
+  background-color: var(--border-bottom-item);
+  border: 3px solid var(--header-border);
+  border-radius: 2.5em;
+}
+.image1 {
+  width: 16em;
+  height: 6em;
+}
+.radio-choose1 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5em;
+}
+.rad-choose1 {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: var(--nav-bg);
+  margin-left: 1em;
+  accent-color: var(--rad-btn);
+}
+.check:after {
+  content: "";
+  display: none;
+}
+.rad-choose-label {
+  cursor: pointer;
+  font-size: 1.5em;
+  color: var(--text-color);
+  width: 4em;
+  margin-bottom: 0.5em;
+}
+.test-err {
+  color: var(--error-color);
+  font-size: 1.2em;
+  /* text-decoration: underline; */
+}
+
+/* MOBILE */
+@media screen and (max-width: 481px) {
+  .test1-container {
+    gap: 0em;
+  }
+
+  .test-content {
+    padding-right: 0em;
+    margin-top: 2em;
+  }
+  .choose-form {
+    padding-right: 35%;
+    gap: 1.3em;
+    padding-top: 0em;
+    padding-bottom: 1em;
+  }
+  .form-container {
+    margin: 1em;
+    width: 12em;
+    height: 17em;
+  }
+  .question-container {
+    margin: 0em;
+  }
+  .questions {
+    gap: 1em;
+    font-weight: 500;
+    font-size: 0.6em;
+    padding-left: 0.5em;
+    padding-top: 1em;
+  }
+  .chooses {
+    gap: 1.8em;
+    padding-right: 1em;
+  }
+  .choose-label {
+    padding: 0.2em 0.5em;
+    font-weight: 600;
+    font-size: 0.6em;
+    border-radius: 1em;
+  }
+  .image1 {
+    width: 6em;
+    height: 3em;
+  }
+  .radio-choose1 {
+    gap: 2em;
+  }
+  .rad-choose1 {
+    width: 0.6em;
+    height: 0.6em;
+    margin-left: 0.5em;
+  }
+  .rad-choose-label {
+    font-size: 0.6em;
+    width: 1.5em;
+    margin-bottom: 0.3em;
+  }
+  .main-test1 {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .test-err {
+    font-size: 0.5em;
+  }
+}
+
+/* MIDUEM */
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .main-test1 {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  .test1-container {
+    gap: 1.5em;
+  }
+
+  .test-content {
+    padding-right: 1em;
+  }
+  .choose-form {
+    padding-right: 53%;
+    gap: 2em;
+  }
+  .form-container {
+    margin: 2em;
+    width: 31em;
+    height: 20em;
+  }
+  .question-container {
+    margin: 2em;
+  }
+  .questions {
+    gap: 1em;
+    font-weight: 600;
+    font-size: 1em;
+    padding-left: 1em;
+  }
+  .chooses {
+    gap: 1.8em;
+    padding-right: 4em;
+  }
+  .choose-label {
+    padding: 0.2em 0.7em;
+    font-weight: 700;
+    font-size: 0.9em;
+    border-radius: 2em;
+  }
+  .image1 {
+    width: 10em;
+    height: 4em;
+  }
+  .radio-choose1 {
+    gap: 3em;
+  }
+  .rad-choose1 {
+    width: 0.9em;
+    height: 0.9em;
+    margin-left: 0.7em;
+  }
+  .rad-choose-label {
+    font-size: 0.9em;
+    width: 2em;
+    margin-bottom: 0.3em;
+  }
+  .test-err {
+    font-size: 0.9em;
+  }
+}

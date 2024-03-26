@@ -1,0 +1,146 @@
+.welcome-strange{
+    padding-left: 4em;
+    padding-right: 4em;
+}
+.flage-image{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.welcome-strange-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    height: fit-content;
+    padding-top: 8em;
+    padding-bottom: 4em;
+    gap: 2em;
+    margin-right: 5em;
+}
+
+.label-welcome-strange-name , .label-welcome-strange{
+
+box-sizing: border-box;
+background: var(--bg-color);
+border: 5px solid var(--label-border);
+box-shadow: 0px 4px 4px var(--text-shadow-color);
+border-radius: 1em;
+height: 3em;
+text-align: center;
+font-size: 2em;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+color: var(--text-color);
+line-height: 2.5em;
+}
+.label-welcome-strange-name {
+width:18em;
+
+}
+.label-welcome-strange{
+width: 13em;
+}
+
+.btn-welcome-start{
+background: var(--conf-btn);
+box-shadow: inset 0px 4px 4px var(--text-shadow-color);
+border-radius: 2em;
+text-align: center;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 2em;
+
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+
+    .welcome-strange{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .flage-image{
+       width: 4em;
+       height: 9em;
+    }
+    .welcome-strange-body{
+        padding-top: 3em;
+        padding-bottom: 1em;
+        gap: 1em;
+        margin-right:2em;
+    }
+    
+    .label-welcome-strange-name , .label-welcome-strange{
+ 
+    border: 2px solid var(--label-border);
+    box-shadow: 0px 2px 2px var(--text-shadow-color);
+    border-radius: 0.7em;
+    height: 2em;
+    text-align: center;
+    font-size: 0.6em;
+    line-height: 1.8em;
+    }
+    .label-welcome-strange-name {
+    width:11em;
+    
+    }
+    .label-welcome-strange{
+    width:9em;
+    }
+    
+    .btn-welcome-start{
+    box-shadow: inset 0px 2px 2px var(--text-shadow-color);
+    border-radius: 0.7em;
+    text-align: center;
+    font-size: 0.6em;
+    padding:0.2em 0.5em;
+    font-weight: 400;
+    }
+  
+  } 
+     /* small screen , laptop*/
+  @media screen and (min-width: 480px) and (max-width: 1024px) {
+
+    .welcome-strange{
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+    .flage-image{
+       width: 14em;
+       height: 25em;
+    }
+    .welcome-strange-body{
+        padding-top: 6em;
+        padding-bottom: 3em;
+        gap: 1em;
+        margin-right:5em;
+    }
+    
+    .label-welcome-strange-name , .label-welcome-strange{
+ 
+    border: 4px solid var(--label-border);
+    box-shadow: 0px 3px 3px var(--text-shadow-color);
+    border-radius: 1em;
+    height: 2.5em;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 2em;
+    }
+    .label-welcome-strange-name {
+    width:12em;
+    
+    }
+    .label-welcome-strange{
+    width:9em;
+    }
+    
+    .btn-welcome-start{
+    box-shadow: inset 0px 3px 3px var(--text-shadow-color);
+    border-radius: 1.2em;
+    text-align: center;
+    font-size: 1.2em;
+    
+    }
+  }   

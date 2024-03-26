@@ -1,0 +1,257 @@
+.desire-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 0em;
+}
+.desires-general {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.desires {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--choose-bg);
+}
+#choose-bt {
+  padding-bottom: 1em;
+  padding-right: 70%;
+}
+.choose-collage,
+.choosen-desires {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-left: 1px solid var(--sec-1);
+  padding: 2em;
+  height: 40em;
+  padding-top: 0em;
+}
+.choose-collage-data-header,
+.choosen-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: var(--text-color);
+  font-size: 1.5em;
+  gap: 13em;
+  border-bottom: 1px solid var(--sec-1);
+  padding: 1em;
+  font-weight: 700;
+}
+.choose-collage-data-body,
+.choosen-colleges {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow-y: scroll;
+
+  padding-top: 1em;
+  gap: 1em;
+  overflow-x: hidden;
+}
+.choose-collage-data-body::-webkit-scrollbar,
+.choosen-colleges::-webkit-scrollbar {
+  display: none;
+}
+.desire-row,
+.coll-item {
+  height: 2em;
+  font-size: 1.2em;
+  color: var(--data-color);
+  padding: 0.5em 0.3em 0.5em 0.5em;
+  margin: 0.2em 0.2em 0.5em 0.5em;
+  gap: 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.rad-select {
+  cursor: pointer;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 30%;
+  background-color: var(--nav-bg);
+  margin-left: 1em;
+  accent-color: var(--rad-btn);
+  gap: 3em;
+}
+.mod-cell {
+  width: 15em;
+  cursor: pointer;
+}
+.mod-cell1 {
+  width: 7em;
+  cursor: pointer;
+}
+.choosen-desires {
+  border-left: none;
+  width: 34em;
+}
+.coll-item {
+  background-color: var(--choice-bg);
+  border-radius: 0.7em;
+  gap: 3em;
+  height: fit-content;
+  width: fit-content;
+  padding: 1em;
+}
+.exit {
+  width: 1.5em;
+  height: 1.5em;
+  cursor: pointer;
+}
+.priority {
+  border-radius: 50%;
+  border: 2px solid var(--header-border);
+  background-color: var(--bg-color);
+  width: 2em;
+  height: 1.5em;
+  text-align: center;
+  align-items: center;
+}
+/* MOBILE */
+@media screen and (max-width: 481px) {
+  #choose-bt {
+    padding-bottom: 0.3em;
+    padding-right: 20%;
+  }
+  .choose-collage,
+  .choosen-desires {
+    padding: 0.5em;
+    height: 15em;
+  }
+  .choose-collage-data-header,
+  .choosen-header {
+    width: 100%;
+    font-size: 0.5em;
+    padding: 0.5em;
+    gap: 9em;
+    font-weight: 500;
+  }
+  .choose-collage-data-body,
+  .choosen-colleges {
+    padding-top: 0.5em;
+    gap: 0.5em;
+  }
+
+  .desire-row,
+  .coll-item {
+    height: fit-content;
+    font-size: 0.5em;
+    padding: 0.7em 0.3em 0.7em 0.7em;
+    margin: 0.1em 0.1em 0.3em 0.3em;
+    gap: 6em;
+  }
+  .rad-select {
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 10%;
+    margin-left: 0.5em;
+    gap: 1em;
+  }
+  .mod-cell {
+    width: 5em;
+  }
+  .mod-cell1 {
+    width: 3em;
+  }
+  .choosen-desires {
+    width: 6em;
+  }
+  .coll-item {
+    border-radius: 0.3em;
+    gap: 1em;
+    height: fit-content;
+    width: fit-content;
+    padding: 0.5em;
+  }
+  .exit {
+    width: 1.5em;
+    height: 1.5em;
+  }
+  .priority {
+    border-radius: 20%;
+    width: 2em;
+    height: 1.8em;
+  }
+}
+
+/* MIDUEM */
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  #choose-bt {
+    padding-bottom: 0.5em;
+    padding-right: 50%;
+  }
+  .choose-collage,
+  .choosen-desires {
+    padding: 1em;
+    height: 29em;
+    width: 20em;
+  }
+  .choosen-desires {
+    width: 8em;
+  }
+  .choose-collage-data-header,
+  .choosen-header {
+    width: 100%;
+    font-size: 1em;
+    gap: 10em;
+    padding: 0.5em;
+    font-weight: 500;
+  }
+  .choose-collage-data-body,
+  .choosen-colleges {
+    padding-top: 1em;
+    gap: 1.2em;
+    width: fit-content;
+    font-size: 0.8em;
+  }
+
+  .desire-row,
+  .coll-item {
+    height: 3.5em;
+    font-size: 1em;
+    padding: 0.8em 0.5em 0.8em 0.8em;
+    margin: 0.2em 0.2em 0.5em 0.5em;
+    gap: 5em;
+  }
+  .rad-select {
+    width: 1em;
+    height: 1em;
+    border-radius: 10%;
+    margin-left: 0.7em;
+    gap: 1.8em;
+  }
+  .mod-cell {
+    width: 11em;
+  }
+  .mod-cell1 {
+    width: 5em;
+  }
+  .choosen-desires {
+    width: 15em;
+  }
+  .coll-item {
+    border-radius: 0.5em;
+    gap: 2em;
+    height: fit-content;
+    width: fit-content;
+    padding: 0.8em;
+  }
+  .exit {
+    width: 2em;
+    height: 1.5m;
+  }
+  .priority {
+    border-radius: 30%;
+    width: 1.5em;
+    height: 1.5em;
+  }
+}

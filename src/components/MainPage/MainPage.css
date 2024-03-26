@@ -1,0 +1,111 @@
+.main-page {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+.main-page-body {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-start;
+  align-items: flex-start; */
+  /* gap:2em; */
+}
+.main-page-content {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-page-top {
+  display: flex;
+  /* padding: 2em; */
+  height: 60%;
+}
+.main-image {
+  height: 30em;
+  width: 68em;
+}
+.main-page-bottom {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background: var(--main-page-bottom);
+  box-shadow: 0px 4px 4px var(--text-shadow-color);
+  border-radius: 2.5em;
+  width: 75%;
+  margin-bottom: 2em;
+  padding: 2em;
+}
+
+.main-page-text {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2em;
+  color: var(--text-color);
+
+  text-align: center;
+  text-shadow: 0px 4px 4px var(--text-shadow-color);
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+  .main-page {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .main-image {
+    height: 10em;
+    width: 12em;
+  }
+  .main-page-bottom {
+    border-radius: 0.5em;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+  }
+
+  .main-page-text {
+    font-size: 0.5em;
+  }
+}
+
+/* iPqad, Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .main-page {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  .main-image {
+    height: 20em;
+    width: 35em;
+  }
+  .main-page-bottom {
+    border-radius: 1.5em;
+    margin-bottom: 1.2em;
+    padding: 1.2em;
+  }
+
+  .main-page-text {
+    font-size: 1.2em;
+  }
+}
+/* small screen , laptop*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .main-page {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  .main-image {
+    height: 24em;
+    width: 49em;
+  }
+  .main-page-bottom {
+    border-radius: 2em;
+    margin-bottom: 1.5em;
+    padding: 1.5em;
+  }
+
+  .main-page-text {
+    font-size: 1.5em;
+  }
+}

@@ -1,0 +1,149 @@
+.header {
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:1em;
+    padding-bottom: 1em;
+    border-bottom: 3px solid var(--header-border);
+  }
+  
+  .title {
+    height: fit-content;
+    font-family: "Arial";
+    font-style: normal;
+    font-size: 3em;
+    color: var(--text-color);
+ 
+  }
+  .image1 {
+    width: 12em;
+    height: 7em;
+  }
+  .image2 {
+    width: 9em;
+    height: 7em;
+  }
+  .in-out{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    gap:2em;
+  }
+  .div-bt{
+    cursor: pointer;
+    padding: 2em ;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 4em;
+    background-color: var(--bg-color);
+    margin-left: 1em;
+  }
+  .in{
+    background-image: url("E:\IT\React\Folder\myproject\myproject\src\assest\images\login.svg");
+  }
+  .out{
+    background-image: url("E:\IT\React\Folder\myproject\myproject\src\assest\images\add-user.svg");
+  }
+  .label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color:var(--text-color);
+    font-size: 1.2em;
+    width: fit-content;
+    gap: 1em;
+    font-weight:400;
+  }
+  .log-box{
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-end  ;
+
+  }
+  /* MOBILE */
+  @media screen and (max-width: 481px) {
+    .header {
+      padding-top:0.7em;
+      padding-bottom: 0.5em;
+      border-bottom: 2px solid var(--header-border);
+    }
+   .title {
+    font-size: 1em;
+    padding-right:1em;
+  }
+  .image1 {
+    width: 5em;
+    height: 3em;
+  }
+  .image2 {
+    width: 4em;
+    height: 3em;
+  } 
+  .in-out{
+
+    gap:1em;
+  }
+  .div-bt{
+    padding: 1em ;
+    background-size: 1.5em;
+    margin-left: 0.3em;
+  }
+
+  .label{
+    font-size: 0.5em;
+    gap: 1em;
+  }
+  .log-box{
+    gap: 0.5em;
+  }
+  }
+  
+  /* MIDUEM */
+  @media screen and (min-width: 481px) and (max-width: 900px) {
+    .header {
+      padding-top:0.9em;
+      padding-bottom: 0.7px;
+      border-bottom: 3px solid var(--header-border);
+    }
+    
+    .title {
+      font-size: 2em;
+      padding:1em;
+      
+    }
+    .image1 {
+      width: 7em;
+      height: 4em;
+    }
+    .image2 {
+      width: 6em;
+      height: 4em;
+    } 
+    .in-out{
+      gap:1em;
+    }
+    .div-bt{
+      padding: 1.5em ;
+      background-size: 2em;
+      margin-left: 0.5em;
+    }
+  
+    .label{
+      font-size: 0.9em;
+      gap: 1em;
+    }
+    .log-box{
+      gap: 0.7em;
+    }
+  }
+  
+  
+  
